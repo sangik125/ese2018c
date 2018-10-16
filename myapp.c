@@ -7,11 +7,17 @@ void preprocess()
   printf("do some preprocessing\n");
 }
 
+void postprocess()
+{
+  printf("postprocess\n");
+}
 
 
 
 int main()
 {
+  preprocess();
+  postprocess();
   foo1();
   foo2();
   return 0;
